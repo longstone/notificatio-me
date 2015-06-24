@@ -1,5 +1,7 @@
 # notificatio-me for node
 
+Wrapps the existing api from notificatio.me for sending messages to telegram users
+
 Howto use:
 
 ```javascript
@@ -10,7 +12,6 @@ var telegramPhoneNumber = '00411231231212';
 var message = 'a message from alice to bob';
 
 notificatiome.send(hash,telegramPhoneNumber,message)
-.then(  function(success){ console.log(success)},
-        function(error){console.log(error)});
+.then( successCallback, errorCallback );
 ```
 get your api key at http://www.notificatio.me/Account/Register
