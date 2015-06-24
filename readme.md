@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/longstone/notificatio-me.svg?branch=master)](https://travis-ci.org/longstone/notificatio-me)
+
 # notificatio-me for node
 
 Wrapps the existing api from notificatio.me for sending messages to telegram users
