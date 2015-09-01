@@ -10,9 +10,10 @@ Howto use:
 ```javascript
 var notificatiome = require('notificatio-me');
 
-var hash = 'the hash from notifiaction.me';
-var telegramPhoneNumber = '00411231231212';
-var message = 'a message from alice to bob';
+var config = {};
+config.hash = 'the hash from notifiaction.me';
+config.telegramPhoneNumber = '00411231231212';
+config.message = 'a message from alice to bob';
 
 notificatiome.send(hash,telegramPhoneNumber,message)
 .then( successCallback, errorCallback );
