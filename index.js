@@ -13,15 +13,16 @@ module.exports = {
      * @param message (max 1000 chars)
      * @returns {Promise} returns the sent message or in case of failure an error
      */
-    send: function sendF(apiHash, phoneNumber, message) {
+    
+    send: function sendF(config) {
 
         var promise = new Promise(function (resolve, reject) {
 
             var options = {
                 json: {
-                    phoneNumber: stripMobile(phoneNumber),
-                    apiHash: apiHash,
-                    message: message
+                    phoneNumber: stripMobile(config.phoneNumber),
+                    apiHash: config.apiHash,
+                    message: config.message
                 }
             };
 
