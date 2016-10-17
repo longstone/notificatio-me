@@ -1,3 +1,6 @@
+
+# [deprecated] notificatio.me is no longer running
+
 [![Build Status](https://travis-ci.org/longstone/notificatio-me.svg?branch=master)](https://travis-ci.org/longstone/notificatio-me)
 [![Coverage Status](https://coveralls.io/repos/longstone/notificatio-me/badge.svg?branch=master)](https://coveralls.io/r/longstone/notificatio-me?branch=master)
 
